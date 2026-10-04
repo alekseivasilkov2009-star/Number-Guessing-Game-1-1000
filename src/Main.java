@@ -46,6 +46,7 @@ public class Main {
 
                    while (!scanner.hasNextInt()) {
                        System.out.println("It's a NUMBER guessing game, don't even try typing letters");
+                       scanner.nextLine();
                    }
 
                    guess = scanner.nextInt();
