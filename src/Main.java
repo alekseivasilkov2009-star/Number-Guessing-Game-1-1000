@@ -53,6 +53,7 @@ public class Main {
 
                    if (guess == numberToGuess) {
                        System.out.println("You've guessed correctly, congratulations!\nThe number I thought of was indeed "+numberToGuess);
+                       tries = 0;
                    } else if (guess > numberToGuess) {
                        System.out.println("The number you've typed in is bigger than the one I thought of.");
                        tries --;
